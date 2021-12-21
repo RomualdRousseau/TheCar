@@ -1,0 +1,4412 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210.52083mm"
+   height="91.600159mm"
+   viewBox="-58 -385 210.52083 91.600159"
+   version="1.1"
+   id="svg716"
+   sodipodi:docname="steering_back.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
+  <metadata
+     id="metadata722">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>OpenSCAD Model</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs720">
+    <marker
+       id="CheckToolsAndOPMarker"
+       orient="auto"
+       refX="-4"
+       refY="-1.687441"
+       style="overflow:visible">
+      <path
+         d="m 4.588864,-1.687441 0.0,0.0 L 9.177728,0.0 c -0.73311,-0.996261 -0.728882,-2.359329 0.0,-3.374882"
+         style="fill:#000044;fill-rule:evenodd;stroke:none"
+         id="path3610" />
+    </marker>
+    <marker
+       id="DrawCurveMarker"
+       orient="auto"
+       refX="-4"
+       refY="-1.687441"
+       style="overflow:visible">
+      <path
+         d="m 4.588864,-1.687441 0.0,0.0 L 9.177728,0.0 c -0.73311,-0.996261 -0.728882,-2.359329 0.0,-3.374882"
+         style="fill:#000044;fill-rule:evenodd;stroke:none"
+         id="path3613" />
+    </marker>
+    <marker
+       id="DrawCurveMarker_r"
+       orient="auto"
+       refX="4"
+       refY="-1.687441"
+       style="overflow:visible">
+      <path
+         d="m -4.588864,-1.687441 0.0,0.0 L -9.177728,0.0 c 0.73311,-0.996261 0.728882,-2.359329 0.0,-3.374882"
+         style="fill:#000044;fill-rule:evenodd;stroke:none"
+         id="path3616" />
+    </marker>
+    <marker
+       id="InOutPathMarker"
+       orient="auto"
+       refX="-4"
+       refY="-1.687441"
+       style="overflow:visible">
+      <path
+         d="m 4.588864,-1.687441 0.0,0.0 L 9.177728,0.0 c -0.73311,-0.996261 -0.728882,-2.359329 0.0,-3.374882"
+         style="fill:#0072a7;fill-rule:evenodd;stroke:none"
+         id="path3619" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     inkscape:document-rotation="0"
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     inkscape:current-layer="layer1"
+     inkscape:window-maximized="1"
+     inkscape:window-y="27"
+     inkscape:window-x="0"
+     inkscape:cy="176.48524"
+     inkscape:cx="400.72064"
+     inkscape:zoom="1.529443"
+     showgrid="false"
+     id="namedview718"
+     inkscape:window-height="1016"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <title
+     id="title712">OpenSCAD Model</title>
+  <g
+     inkscape:label="Layer 1"
+     id="layer1"
+     inkscape:groupmode="layer">
+    <path
+       d="m 132.47083,-384.95 h -10 v 84 h 10 z m -5.235,43.482 -0.229,-0.055 -0.217,-0.09 -0.201,-0.123 -0.179,-0.153 -0.153,-0.179 -0.123,-0.201 -0.09,-0.217 -0.055,-0.229 -0.018,-0.235 0.018,-0.235 0.055,-0.229 0.09,-0.217 0.123,-0.201 0.153,-0.179 0.179,-0.153 0.201,-0.122 0.217,-0.091 0.229,-0.054 0.235,-0.019 0.235,0.019 0.228,0.054 0.218,0.091 0.201,0.122 0.179,0.153 0.153,0.179 0.123,0.201 0.09,0.217 0.054,0.229 0.019,0.235 -0.019,0.235 -0.054,0.229 -0.09,0.217 -0.123,0.201 -0.153,0.179 -0.179,0.153 -0.201,0.123 -0.218,0.09 -0.228,0.055 -0.235,0.018 z m -175.185833,37.518 h 60 v 3 h 15 l 0.782201,-0.061 0.762799,-0.184 0.7249,-0.3 0.668901,-0.41 0.596699,-0.509 0.5095,-0.597 0.410001,-0.669 0.300199,-0.725 0.1832,-0.763 0.0616,-0.782 v -74 l -0.0616,-0.782 -0.1832,-0.763 -0.300199,-0.725 -0.410001,-0.669 -0.5095,-0.596 -0.596699,-0.51 -0.668901,-0.41 -0.7249,-0.3 -0.762799,-0.183 -0.782201,-0.062 h -15 v 3 h -60 v -3 h -5 l -0.78217,0.062 -0.76293,0.183 -0.72495,0.3 -0.66895,0.41 -0.59661,0.51 -0.509495,0.596 -0.410004,0.669 -0.300293,0.725 -0.183105,0.763 -0.06149,0.782 v 74 l 0.06149,0.782 0.183105,0.763 0.300293,0.725 0.410004,0.669 0.509495,0.597 0.59661,0.509 0.66895,0.41 0.72495,0.3 0.76293,0.184 0.78217,0.061 h 5 z m 5,-7 -0.7822,-0.061 -0.7629,-0.184 -0.725,-0.3 -0.6689,-0.41 -0.5966,-0.509 -0.5095,-0.597 -0.41,-0.669 -0.3003,-0.725 -0.1831,-0.763 -0.0615,-0.782 v -54 l 0.0615,-0.782 0.1831,-0.763 0.3003,-0.725 0.41,-0.669 0.5095,-0.596 0.5966,-0.51 0.6689,-0.41 0.725,-0.3 0.7629,-0.183 0.7822,-0.062 h 50 l 0.782201,0.062 0.762799,0.183 0.7249,0.3 0.668901,0.41 0.596699,0.51 0.5095,0.596 0.410001,0.669 0.300199,0.725 0.1832,0.763 0.0616,0.782 v 54 l -0.0616,0.782 -0.1832,0.763 -0.300199,0.725 -0.410001,0.669 -0.5095,0.597 -0.596699,0.509 -0.668901,0.41 -0.7249,0.3 -0.762799,0.184 -0.782201,0.061 z m 64.765301,-45.518 -0.228899,-0.055 -0.217401,-0.09 -0.2008,-0.123 -0.179001,-0.153 -0.152699,-0.179 -0.123,-0.201 -0.0902,-0.217 -0.0549,-0.229 -0.01849,-0.235 0.01849,-0.235 0.0549,-0.229 0.0902,-0.217 0.123,-0.201 0.152699,-0.179 0.179001,-0.153 0.2008,-0.122 0.217401,-0.091 0.228899,-0.054 0.234701,-0.019 0.234497,0.019 0.228902,0.054 0.2174,0.091 0.200898,0.122 0.178901,0.153 0.1528,0.179 0.123002,0.201 0.0901,0.217 0.055,0.229 0.01839,0.235 -0.01839,0.235 -0.055,0.229 -0.0901,0.217 -0.123002,0.201 -0.1528,0.179 -0.178901,0.153 -0.200898,0.123 -0.2174,0.09 -0.228902,0.055 -0.234497,0.018 z m 0,30 -0.228899,-0.055 -0.217401,-0.09 -0.2008,-0.123 -0.179001,-0.153 -0.152699,-0.179 -0.123,-0.201 -0.0902,-0.217 -0.0549,-0.229 -0.01849,-0.235 0.01849,-0.235 0.0549,-0.228 0.0902,-0.218 0.123,-0.201 0.152699,-0.179 0.179001,-0.153 0.2008,-0.122 0.217401,-0.091 0.228899,-0.054 0.234701,-0.019 0.234497,0.019 0.228902,0.054 0.2174,0.091 0.200898,0.122 0.178901,0.153 0.1528,0.179 0.123002,0.201 0.0901,0.218 0.055,0.228 0.01839,0.235 -0.01839,0.235 -0.055,0.229 -0.0901,0.217 -0.123002,0.201 -0.1528,0.179 -0.178901,0.153 -0.200898,0.123 -0.2174,0.09 -0.228902,0.055 -0.234497,0.018 z M 152.47083,-384.95 h -10 v 84 h 10 z m -70.682832,41.285 31.044002,-7.346 0.763,-0.184 0.725,-0.3 0.669,-0.41 0.596,-0.509 0.51,-0.597 0.41,-0.669 0.3,-0.725 0.183,-0.763 0.062,-0.782 v -5 h -3 v -10 h 3 v -10 h -3 v -3 H 54.049999 v 3 h -12 l -0.782201,0.062 -0.7629,0.183 -0.725,0.3 -0.668901,0.41 -0.596599,0.51 -0.5095,0.596 -0.410001,0.669 -0.300299,0.725 -0.1831,0.763 -0.0615,0.782 0.0615,0.782 0.1831,0.763 5.0004,20 0.3,0.725 0.409999,0.669 0.509,0.597 0.597,0.509 0.669002,0.41 0.724998,0.3 28.137001,6.889 2.670001,0.641 2.737998,0.215 z m 19.636002,-26.334 -0.61,-0.147 -0.58,-0.24 -0.535,-0.328 -0.478,-0.408 -0.407,-0.477 -0.328,-0.535 -0.24,-0.58 -0.147,-0.61 -0.049,-0.626 0.049,-0.626 0.147,-0.61 0.24,-0.58 0.328,-0.535 0.407,-0.477 0.478,-0.408 0.535,-0.328 0.58,-0.24 0.61,-0.147 0.626,-0.049 0.626,0.049 0.61,0.147 0.58,0.24 0.535,0.328 0.477,0.408 0.408,0.477 0.328,0.535 0.24,0.58 0.147,0.61 0.049,0.626 -0.049,0.626 -0.147,0.61 -0.24,0.58 -0.328,0.535 -0.408,0.477 -0.477,0.408 -0.535,0.328 -0.58,0.24 -0.61,0.147 -0.626,0.049 z m -59.608702,-4.469 -0.228899,-0.055 -0.217401,-0.09 -0.2008,-0.123 -0.179001,-0.153 -0.152699,-0.179 -0.122999,-0.201 -0.0902,-0.217 -0.0549,-0.229 -0.01849,-0.235 0.01849,-0.235 0.0549,-0.228 0.0902,-0.218 0.122999,-0.201 0.152699,-0.179 0.179001,-0.153 0.2008,-0.123 0.217401,-0.09 0.228899,-0.054 0.234701,-0.019 0.234998,0.019 0.228002,0.054 0.217998,0.09 0.201001,0.123 0.178999,0.153 0.152,0.179 0.123,0.201 0.091,0.218 0.054,0.228 0.019,0.235 -0.019,0.235 -0.054,0.229 -0.091,0.217 -0.123,0.201 -0.152,0.179 -0.178999,0.153 -0.201001,0.123 -0.217998,0.09 -0.228002,0.055 -0.234998,0.018 z m 33.061699,19.926 -1.144998,-0.275 -1.087001,-0.45 -1.003001,-0.615 -0.894998,-0.765 -0.765,-0.894 -0.615001,-1.004 -0.45,-1.087 -0.275,-1.145 -0.092,-1.173 0.092,-1.173 0.275,-1.145 0.45,-1.087 0.615001,-1.003 0.765,-0.895 0.894998,-0.765 1.003001,-0.614 1.087001,-0.451 1.144998,-0.275 1.173001,-0.092 1.173001,0.092 1.144998,0.275 1.087001,0.451 1.003001,0.614 0.894998,0.765 0.765,0.895 0.615,1.003 0.450001,1.087 0.275,1.145 0.092,1.173 -0.092,1.173 -0.275,1.145 -0.450001,1.087 -0.615,1.004 -0.765,0.894 -0.894998,0.765 -1.003001,0.615 -1.087001,0.45 -1.144998,0.275 -1.173001,0.092 z m -12.326999,-5.908 -0.235,-0.018 -0.229,-0.055 -0.217,-0.09 -0.200999,-0.123 -0.179001,-0.153 -0.153001,-0.179 -0.122999,-0.201 -0.09,-0.217 -0.055,-0.229 -0.01799,-0.235 0.01799,-0.235 0.055,-0.228 0.09,-0.218 0.122999,-0.201 0.153001,-0.179 0.179001,-0.152 0.200999,-0.123 0.217,-0.09 0.229,-0.056 0.235,-0.018 h 1.999999 l 0.235,0.018 0.228002,0.056 0.217998,0.09 0.201002,0.123 0.178998,0.152 0.152001,0.179 0.122999,0.201 0.091,0.218 0.054,0.228 0.019,0.235 -0.019,0.235 -0.054,0.229 -0.091,0.217 -0.122999,0.201 -0.152001,0.179 -0.178998,0.153 -0.201002,0.123 -0.217998,0.09 -0.228002,0.055 -0.235,0.018 z m 25.000002,0 -0.235,-0.018 -0.229,-0.055 -0.217,-0.09 -0.201,-0.123 -0.179,-0.153 -0.153,-0.179 -0.123,-0.201 -0.09,-0.217 -0.055,-0.229 -0.018,-0.235 0.018,-0.235 0.055,-0.228 0.09,-0.218 0.123,-0.201 0.153,-0.179 0.179,-0.152 0.201,-0.123 0.217,-0.09 0.229,-0.056 0.235,-0.018 h 2 l 0.235,0.018 0.228,0.056 0.218,0.09 0.201,0.123 0.179,0.152 0.152,0.179 0.123,0.201 0.091,0.218 0.054,0.228 0.019,0.235 -0.019,0.235 -0.054,0.229 -0.091,0.217 -0.123,0.201 -0.152,0.179 -0.179,0.153 -0.201,0.123 -0.218,0.09 -0.228,0.055 -0.235,0.018 z m -42.500002,7.5 v -3 h 9.999999 v 3 z m 36.738,59.285 31.044002,-7.346 0.763,-0.184 0.725,-0.3 0.669,-0.41 0.596,-0.509 0.51,-0.597 0.41,-0.669 0.3,-0.725 0.183,-0.763 0.062,-0.782 v -5 h -3 v -10 h 3 v -10 h -3 v -3 H 54.049999 v 3 h -12 l -0.782201,0.062 -0.7629,0.183 -0.725,0.3 -0.668901,0.41 -0.596599,0.51 -0.5095,0.596 -0.410001,0.669 -0.300299,0.725 -0.1831,0.763 -0.0615,0.782 0.0615,0.782 0.1831,0.763 5.0004,20 0.3,0.725 0.409999,0.669 0.509,0.597 0.597,0.509 0.669002,0.41 0.724998,0.3 28.137001,6.889 2.670001,0.641 2.737998,0.215 z m 19.636002,-26.334 -0.61,-0.147 -0.58,-0.24 -0.535,-0.328 -0.478,-0.408 -0.407,-0.477 -0.328,-0.535 -0.24,-0.58 -0.147,-0.61 -0.049,-0.626 0.049,-0.626 0.147,-0.61 0.24,-0.58 0.328,-0.535 0.407,-0.477 0.478,-0.408 0.535,-0.328 0.58,-0.24 0.61,-0.147 0.626,-0.049 0.626,0.049 0.61,0.147 0.58,0.24 0.535,0.328 0.477,0.408 0.408,0.477 0.328,0.535 0.24,0.58 0.147,0.61 0.049,0.626 -0.049,0.626 -0.147,0.61 -0.24,0.58 -0.328,0.535 -0.408,0.477 -0.477,0.408 -0.535,0.328 -0.58,0.24 -0.61,0.147 -0.626,0.049 z m -59.608702,-4.469 -0.228899,-0.055 -0.217401,-0.09 -0.2008,-0.123 -0.179001,-0.153 -0.152699,-0.179 -0.122999,-0.201 -0.0902,-0.217 -0.0549,-0.229 -0.01849,-0.235 0.01849,-0.235 0.0549,-0.228 0.0902,-0.218 0.122999,-0.201 0.152699,-0.179 0.179001,-0.153 0.2008,-0.123 0.217401,-0.09 0.228899,-0.054 0.234701,-0.019 0.234998,0.019 0.228002,0.054 0.217998,0.09 0.201001,0.123 0.178999,0.153 0.152,0.179 0.123,0.201 0.091,0.218 0.054,0.228 0.019,0.235 -0.019,0.235 -0.054,0.229 -0.091,0.217 -0.123,0.201 -0.152,0.179 -0.178999,0.153 -0.201001,0.123 -0.217998,0.09 -0.228002,0.055 -0.234998,0.018 z m 33.061699,19.926 -1.144998,-0.275 -1.087001,-0.45 -1.003001,-0.615 -0.894998,-0.765 -0.765,-0.894 -0.615001,-1.004 -0.45,-1.087 -0.275,-1.145 -0.092,-1.173 0.092,-1.173 0.275,-1.145 0.45,-1.087 0.615001,-1.003 0.765,-0.895 0.894998,-0.765 1.003001,-0.614 1.087001,-0.451 1.144998,-0.275 1.173001,-0.092 1.173001,0.092 1.144998,0.275 1.087001,0.451 1.003001,0.614 0.894998,0.765 0.765,0.895 0.615,1.003 0.450001,1.087 0.275,1.145 0.092,1.173 -0.092,1.173 -0.275,1.145 -0.450001,1.087 -0.615,1.004 -0.765,0.894 -0.894998,0.765 -1.003001,0.615 -1.087001,0.45 -1.144998,0.275 -1.173001,0.092 z M 87.55,-310.45 l -0.235,-0.018 -0.229,-0.055 -0.217,-0.09 -0.201,-0.123 -0.179,-0.153 -0.153,-0.179 -0.123,-0.201 -0.09,-0.217 -0.055,-0.229 -0.018,-0.235 0.018,-0.235 0.055,-0.228 0.09,-0.218 0.123,-0.201 0.153,-0.179 0.179,-0.152 0.201,-0.123 0.217,-0.09 0.229,-0.056 0.235,-0.018 h 2 l 0.235,0.018 0.228,0.056 0.218,0.09 0.201,0.123 0.179,0.152 0.152,0.179 0.123,0.201 0.091,0.218 0.054,0.228 0.019,0.235 -0.019,0.235 -0.054,0.229 -0.091,0.217 -0.123,0.201 -0.152,0.179 -0.179,0.153 -0.201,0.123 -0.218,0.09 -0.228,0.055 -0.235,0.018 z m -25.000002,0 -0.235,-0.018 -0.229,-0.055 -0.217,-0.09 -0.200999,-0.123 -0.179001,-0.153 -0.153001,-0.179 -0.122999,-0.201 -0.09,-0.217 -0.055,-0.229 -0.01799,-0.235 0.01799,-0.235 0.055,-0.228 0.09,-0.218 0.122999,-0.201 0.153001,-0.179 0.179001,-0.152 0.200999,-0.123 0.217,-0.09 0.229,-0.056 0.235,-0.018 h 1.999999 l 0.235,0.018 0.228002,0.056 0.217998,0.09 0.201002,0.123 0.178998,0.152 0.152001,0.179 0.122999,0.201 0.091,0.218 0.054,0.228 0.019,0.235 -0.019,0.235 -0.054,0.229 -0.091,0.217 -0.122999,0.201 -0.152001,0.179 -0.178998,0.153 -0.201002,0.123 -0.217998,0.09 -0.228002,0.055 -0.235,0.018 z m -17.5,7.5 v -3 h 9.999999 v 3 z"
+       stroke="#000000"
+       fill="lightgray"
+       stroke-width="0.5"
+       id="path714"
+       style="fill:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+    <g
+       gcodetools="Gcodetools orientation group"
+       id="g3642">
+      <g
+         gcodetools="Gcodetools orientation point (2 points)"
+         id="g3632">
+        <path
+           style="stroke:none;fill:#000000;"
+           gcodetools="Gcodetools orientation point arrow"
+           d="m 0 91.6002 l 2.9375 -6.34375 l 0.8125 1.90625 l 6.84375 -6.84375 l 0 0 l 0.6875 0.6875 l -6.84375 6.84375 l 1.90625 0.8125 z"
+           id="path3626" />
+        <text
+           x="10.0"
+           xml:space="preserve"
+           y="81.600159"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools orientation point text"
+           id="text3630"><tspan
+             x="10.0"
+             y="81.600159"
+             sodipodi:role="line"
+             id="tspan3628">(0.0; 0.0; 0.0)</tspan></text>
+      </g>
+      <g
+         gcodetools="Gcodetools orientation point (2 points)"
+         id="g3640">
+        <path
+           style="stroke:none;fill:#000000;"
+           gcodetools="Gcodetools orientation point arrow"
+           d="m 100 91.6002 l 2.9375 -6.34375 l 0.8125 1.90625 l 6.84375 -6.84375 l 0 0 l 0.6875 0.6875 l -6.84375 6.84375 l 1.90625 0.8125 z"
+           id="path3634" />
+        <text
+           x="110.0"
+           xml:space="preserve"
+           y="81.600159"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools orientation point text"
+           id="text3638"><tspan
+             x="110.0"
+             y="81.600159"
+             sodipodi:role="line"
+             id="tspan3636">(100.0; 0.0; -0.125)</tspan></text>
+      </g>
+    </g>
+    <g
+       gcodetools="Gcodetools tool definition"
+       transform="translate(-43.976, 46.6951)"
+       id="g3856">
+      <path
+         gcodetools="Gcodetools tool background"
+         style="fill-opacity:0.5;stroke:#444444;fill:00ff00"
+         d="m -20,-20 l 400,0 0,370.000000 -400,0 z "
+         id="path3644" />
+      <g
+         gcodetools="Gcodetools tool parameter"
+         id="g3654">
+        <text
+           x="0"
+           xml:space="preserve"
+           y="0"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:20.000000px;"
+           gcodetools="Gcodetools tool definition field name"
+           id="text3648"><tspan
+             x="0"
+             y="0"
+             sodipodi:role="line"
+             id="tspan3646">name</tspan></text>
+        <text
+           x="150"
+           xml:space="preserve"
+           y="0"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:20.000000px;"
+           gcodetools="Gcodetools tool definition field value"
+           id="text3652"><tspan
+             x="150"
+             y="0"
+             sodipodi:role="line"
+             id="tspan3650">Default tool</tspan></text>
+      </g>
+      <g
+         gcodetools="Gcodetools tool parameter"
+         id="g3664">
+        <text
+           x="0"
+           xml:space="preserve"
+           y="20"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field name"
+           id="text3658"><tspan
+             x="0"
+             y="20"
+             sodipodi:role="line"
+             id="tspan3656">id</tspan></text>
+        <text
+           x="150"
+           xml:space="preserve"
+           y="20"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field value"
+           id="text3662"><tspan
+             x="150"
+             y="20"
+             sodipodi:role="line"
+             id="tspan3660">default tool</tspan></text>
+      </g>
+      <g
+         gcodetools="Gcodetools tool parameter"
+         id="g3674">
+        <text
+           x="0"
+           xml:space="preserve"
+           y="35"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field name"
+           id="text3668"><tspan
+             x="0"
+             y="35"
+             sodipodi:role="line"
+             id="tspan3666">diameter</tspan></text>
+        <text
+           x="150"
+           xml:space="preserve"
+           y="35"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field value"
+           id="text3672"><tspan
+             x="150"
+             y="35"
+             sodipodi:role="line"
+             id="tspan3670">10.0</tspan></text>
+      </g>
+      <g
+         gcodetools="Gcodetools tool parameter"
+         id="g3684">
+        <text
+           x="0"
+           xml:space="preserve"
+           y="50"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field name"
+           id="text3678"><tspan
+             x="0"
+             y="50"
+             sodipodi:role="line"
+             id="tspan3676">feed</tspan></text>
+        <text
+           x="150"
+           xml:space="preserve"
+           y="50"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field value"
+           id="text3682"><tspan
+             x="150"
+             y="50"
+             sodipodi:role="line"
+             id="tspan3680">400.0</tspan></text>
+      </g>
+      <g
+         gcodetools="Gcodetools tool parameter"
+         id="g3694">
+        <text
+           x="0"
+           xml:space="preserve"
+           y="65"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field name"
+           id="text3688"><tspan
+             x="0"
+             y="65"
+             sodipodi:role="line"
+             id="tspan3686">shape</tspan></text>
+        <text
+           x="150"
+           xml:space="preserve"
+           y="65"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field value"
+           id="text3692"><tspan
+             x="150"
+             y="65"
+             sodipodi:role="line"
+             id="tspan3690">10</tspan></text>
+      </g>
+      <g
+         gcodetools="Gcodetools tool parameter"
+         id="g3704">
+        <text
+           x="0"
+           xml:space="preserve"
+           y="80"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field name"
+           id="text3698"><tspan
+             x="0"
+             y="80"
+             sodipodi:role="line"
+             id="tspan3696">penetration angle</tspan></text>
+        <text
+           x="150"
+           xml:space="preserve"
+           y="80"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field value"
+           id="text3702"><tspan
+             x="150"
+             y="80"
+             sodipodi:role="line"
+             id="tspan3700">90.0</tspan></text>
+      </g>
+      <g
+         gcodetools="Gcodetools tool parameter"
+         id="g3714">
+        <text
+           x="0"
+           xml:space="preserve"
+           y="95"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field name"
+           id="text3708"><tspan
+             x="0"
+             y="95"
+             sodipodi:role="line"
+             id="tspan3706">penetration feed</tspan></text>
+        <text
+           x="150"
+           xml:space="preserve"
+           y="95"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field value"
+           id="text3712"><tspan
+             x="150"
+             y="95"
+             sodipodi:role="line"
+             id="tspan3710">100.0</tspan></text>
+      </g>
+      <g
+         gcodetools="Gcodetools tool parameter"
+         id="g3724">
+        <text
+           x="0"
+           xml:space="preserve"
+           y="110"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field name"
+           id="text3718"><tspan
+             x="0"
+             y="110"
+             sodipodi:role="line"
+             id="tspan3716">passing feed</tspan></text>
+        <text
+           x="150"
+           xml:space="preserve"
+           y="110"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field value"
+           id="text3722"><tspan
+             x="150"
+             y="110"
+             sodipodi:role="line"
+             id="tspan3720">800</tspan></text>
+      </g>
+      <g
+         gcodetools="Gcodetools tool parameter"
+         id="g3734">
+        <text
+           x="0"
+           xml:space="preserve"
+           y="125"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field name"
+           id="text3728"><tspan
+             x="0"
+             y="125"
+             sodipodi:role="line"
+             id="tspan3726">depth step</tspan></text>
+        <text
+           x="150"
+           xml:space="preserve"
+           y="125"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field value"
+           id="text3732"><tspan
+             x="150"
+             y="125"
+             sodipodi:role="line"
+             id="tspan3730">1.0</tspan></text>
+      </g>
+      <g
+         gcodetools="Gcodetools tool parameter"
+         id="g3744">
+        <text
+           x="0"
+           xml:space="preserve"
+           y="140"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field name"
+           id="text3738"><tspan
+             x="0"
+             y="140"
+             sodipodi:role="line"
+             id="tspan3736">in trajectotry</tspan></text>
+        <text
+           x="150"
+           xml:space="preserve"
+           y="140"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field value"
+           id="text3742"><tspan
+             x="150"
+             y="140"
+             sodipodi:role="line"
+             id="tspan3740">(None)</tspan></text>
+      </g>
+      <g
+         gcodetools="Gcodetools tool parameter"
+         id="g3754">
+        <text
+           x="0"
+           xml:space="preserve"
+           y="155"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field name"
+           id="text3748"><tspan
+             x="0"
+             y="155"
+             sodipodi:role="line"
+             id="tspan3746">out trajectotry</tspan></text>
+        <text
+           x="150"
+           xml:space="preserve"
+           y="155"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field value"
+           id="text3752"><tspan
+             x="150"
+             y="155"
+             sodipodi:role="line"
+             id="tspan3750">(None)</tspan></text>
+      </g>
+      <g
+         gcodetools="Gcodetools tool parameter"
+         id="g3764">
+        <text
+           x="0"
+           xml:space="preserve"
+           y="170"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field name"
+           id="text3758"><tspan
+             x="0"
+             y="170"
+             sodipodi:role="line"
+             id="tspan3756">gcode before path</tspan></text>
+        <text
+           x="150"
+           xml:space="preserve"
+           y="170"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field value"
+           id="text3762"><tspan
+             x="150"
+             y="170"
+             sodipodi:role="line"
+             id="tspan3760">(None)</tspan></text>
+      </g>
+      <g
+         gcodetools="Gcodetools tool parameter"
+         id="g3774">
+        <text
+           x="0"
+           xml:space="preserve"
+           y="185"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field name"
+           id="text3768"><tspan
+             x="0"
+             y="185"
+             sodipodi:role="line"
+             id="tspan3766">gcode after path</tspan></text>
+        <text
+           x="150"
+           xml:space="preserve"
+           y="185"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field value"
+           id="text3772"><tspan
+             x="150"
+             y="185"
+             sodipodi:role="line"
+             id="tspan3770">(None)</tspan></text>
+      </g>
+      <g
+         gcodetools="Gcodetools tool parameter"
+         id="g3784">
+        <text
+           x="0"
+           xml:space="preserve"
+           y="200"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field name"
+           id="text3778"><tspan
+             x="0"
+             y="200"
+             sodipodi:role="line"
+             id="tspan3776">sog</tspan></text>
+        <text
+           x="150"
+           xml:space="preserve"
+           y="200"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field value"
+           id="text3782"><tspan
+             x="150"
+             y="200"
+             sodipodi:role="line"
+             id="tspan3780">(None)</tspan></text>
+      </g>
+      <g
+         gcodetools="Gcodetools tool parameter"
+         id="g3794">
+        <text
+           x="0"
+           xml:space="preserve"
+           y="215"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field name"
+           id="text3788"><tspan
+             x="0"
+             y="215"
+             sodipodi:role="line"
+             id="tspan3786">spinlde rpm</tspan></text>
+        <text
+           x="150"
+           xml:space="preserve"
+           y="215"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field value"
+           id="text3792"><tspan
+             x="150"
+             y="215"
+             sodipodi:role="line"
+             id="tspan3790">(None)</tspan></text>
+      </g>
+      <g
+         gcodetools="Gcodetools tool parameter"
+         id="g3804">
+        <text
+           x="0"
+           xml:space="preserve"
+           y="230"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field name"
+           id="text3798"><tspan
+             x="0"
+             y="230"
+             sodipodi:role="line"
+             id="tspan3796">CW or CCW</tspan></text>
+        <text
+           x="150"
+           xml:space="preserve"
+           y="230"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field value"
+           id="text3802"><tspan
+             x="150"
+             y="230"
+             sodipodi:role="line"
+             id="tspan3800">(None)</tspan></text>
+      </g>
+      <g
+         gcodetools="Gcodetools tool parameter"
+         id="g3814">
+        <text
+           x="0"
+           xml:space="preserve"
+           y="245"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field name"
+           id="text3808"><tspan
+             x="0"
+             y="245"
+             sodipodi:role="line"
+             id="tspan3806">tool change gcode</tspan></text>
+        <text
+           x="150"
+           xml:space="preserve"
+           y="245"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field value"
+           id="text3812"><tspan
+             x="150"
+             y="245"
+             sodipodi:role="line"
+             id="tspan3810">(None)</tspan></text>
+      </g>
+      <g
+         gcodetools="Gcodetools tool parameter"
+         id="g3824">
+        <text
+           x="0"
+           xml:space="preserve"
+           y="260"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field name"
+           id="text3818"><tspan
+             x="0"
+             y="260"
+             sodipodi:role="line"
+             id="tspan3816">4th axis meaning</tspan></text>
+        <text
+           x="150"
+           xml:space="preserve"
+           y="260"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field value"
+           id="text3822"><tspan
+             x="150"
+             y="260"
+             sodipodi:role="line"
+             id="tspan3820">(None)</tspan></text>
+      </g>
+      <g
+         gcodetools="Gcodetools tool parameter"
+         id="g3834">
+        <text
+           x="0"
+           xml:space="preserve"
+           y="275"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field name"
+           id="text3828"><tspan
+             x="0"
+             y="275"
+             sodipodi:role="line"
+             id="tspan3826">4th axis scale</tspan></text>
+        <text
+           x="150"
+           xml:space="preserve"
+           y="275"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field value"
+           id="text3832"><tspan
+             x="150"
+             y="275"
+             sodipodi:role="line"
+             id="tspan3830">1.0</tspan></text>
+      </g>
+      <g
+         gcodetools="Gcodetools tool parameter"
+         id="g3844">
+        <text
+           x="0"
+           xml:space="preserve"
+           y="290"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field name"
+           id="text3838"><tspan
+             x="0"
+             y="290"
+             sodipodi:role="line"
+             id="tspan3836">4th axis offset</tspan></text>
+        <text
+           x="150"
+           xml:space="preserve"
+           y="290"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field value"
+           id="text3842"><tspan
+             x="150"
+             y="290"
+             sodipodi:role="line"
+             id="tspan3840">0.0</tspan></text>
+      </g>
+      <g
+         gcodetools="Gcodetools tool parameter"
+         id="g3854">
+        <text
+           x="0"
+           xml:space="preserve"
+           y="305"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field name"
+           id="text3848"><tspan
+             x="0"
+             y="305"
+             sodipodi:role="line"
+             id="tspan3846">fine feed</tspan></text>
+        <text
+           x="150"
+           xml:space="preserve"
+           y="305"
+           style="font-family:DejaVu Sans;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans;fill:#000000;fill-opacity:1;stroke:none;font-size:10.000000px;"
+           gcodetools="Gcodetools tool definition field value"
+           id="text3852"><tspan
+             x="150"
+             y="305"
+             sodipodi:role="line"
+             id="tspan3850">800</tspan></text>
+      </g>
+    </g>
+    <g
+       gcodetools="Preview group"
+       id="g5310">
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 132.471 -384.95 L 122.471 -384.95"
+         id="path3858" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 122.471 -384.95 L 122.471 -300.95"
+         id="path3860" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 122.471 -300.95 L 132.471 -300.95"
+         id="path3862" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 132.471 -300.95 L 132.471 -384.95"
+         id="path3864" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 127.236 -341.468 L 127.007 -341.523"
+         id="path3866" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 127.007 -341.523 L 126.79 -341.613"
+         id="path3868" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 126.79 -341.613 L 126.589 -341.736"
+         id="path3870" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 126.589 -341.736 L 126.41 -341.889"
+         id="path3872" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 126.41 -341.889 L 126.257 -342.068"
+         id="path3874" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 126.257 -342.068 L 126.134 -342.269"
+         id="path3876" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 126.134 -342.269 L 126.044 -342.486"
+         id="path3878" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 126.044 -342.486 L 125.989 -342.715"
+         id="path3880" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 125.989 -342.715 L 125.971 -342.95"
+         id="path3882" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 125.971 -342.95 L 125.989 -343.185"
+         id="path3884" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 125.989 -343.185 L 126.044 -343.414"
+         id="path3886" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 126.044 -343.414 L 126.134 -343.631"
+         id="path3888" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 126.134 -343.631 L 126.257 -343.832"
+         id="path3890" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 126.257 -343.832 L 126.41 -344.011"
+         id="path3892" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 126.41 -344.011 L 126.589 -344.164"
+         id="path3894" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 126.589 -344.164 L 126.79 -344.286"
+         id="path3896" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 126.79 -344.286 L 127.007 -344.377"
+         id="path3898" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 127.007 -344.377 L 127.236 -344.431"
+         id="path3900" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 127.236 -344.431 L 127.471 -344.45"
+         id="path3902" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 127.471 -344.45 L 127.706 -344.431"
+         id="path3904" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 127.706 -344.431 L 127.934 -344.377"
+         id="path3906" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 127.934 -344.377 L 128.152 -344.286"
+         id="path3908" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 128.152 -344.286 L 128.353 -344.164"
+         id="path3910" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 128.353 -344.164 L 128.532 -344.011"
+         id="path3912" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 128.532 -344.011 L 128.685 -343.832"
+         id="path3914" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 128.685 -343.832 L 128.808 -343.631"
+         id="path3916" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 128.808 -343.631 L 128.898 -343.414"
+         id="path3918" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 128.898 -343.414 L 128.952 -343.185"
+         id="path3920" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 128.952 -343.185 L 128.971 -342.95"
+         id="path3922" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 128.971 -342.95 L 128.952 -342.715"
+         id="path3924" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 128.952 -342.715 L 128.898 -342.486"
+         id="path3926" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 128.898 -342.486 L 128.808 -342.269"
+         id="path3928" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 128.808 -342.269 L 128.685 -342.068"
+         id="path3930" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 128.685 -342.068 L 128.532 -341.889"
+         id="path3932" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 128.532 -341.889 L 128.353 -341.736"
+         id="path3934" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 128.353 -341.736 L 128.152 -341.613"
+         id="path3936" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 128.152 -341.613 L 127.934 -341.523"
+         id="path3938" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 127.934 -341.523 L 127.706 -341.468"
+         id="path3940" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 127.706 -341.468 L 127.471 -341.45"
+         id="path3942" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 127.471 -341.45 L 127.236 -341.468"
+         id="path3944" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -47.95 -303.95 L 12.05 -303.95"
+         id="path3946" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 12.05 -303.95 L 12.05 -300.95"
+         id="path3948" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 12.05 -300.95 L 27.05 -300.95"
+         id="path3950" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 27.05 -300.95 L 27.8322 -301.011"
+         id="path3952" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 27.8322 -301.011 L 28.595 -301.195"
+         id="path3954" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 28.595 -301.195 L 29.3199 -301.495"
+         id="path3956" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 29.3199 -301.495 L 29.9888 -301.905"
+         id="path3958" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 29.9888 -301.905 L 30.5855 -302.414"
+         id="path3960" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 30.5855 -302.414 L 31.095 -303.011"
+         id="path3962" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 31.095 -303.011 L 31.505 -303.68"
+         id="path3964" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 31.505 -303.68 L 31.8052 -304.405"
+         id="path3966" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 31.8052 -304.405 L 31.9884 -305.168"
+         id="path3968" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 31.9884 -305.168 L 32.05 -305.95"
+         id="path3970" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 32.05 -305.95 L 32.05 -379.95"
+         id="path3972" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 32.05 -379.95 L 31.9884 -380.732"
+         id="path3974" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 31.9884 -380.732 L 31.8052 -381.495"
+         id="path3976" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 31.8052 -381.495 L 31.505 -382.22"
+         id="path3978" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 31.505 -382.22 L 31.095 -382.889"
+         id="path3980" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 31.095 -382.889 L 30.5855 -383.485"
+         id="path3982" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 30.5855 -383.485 L 29.9888 -383.995"
+         id="path3984" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 29.9888 -383.995 L 29.3199 -384.405"
+         id="path3986" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 29.3199 -384.405 L 28.595 -384.705"
+         id="path3988" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 28.595 -384.705 L 27.8322 -384.888"
+         id="path3990" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 27.8322 -384.888 L 27.05 -384.95"
+         id="path3992" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 27.05 -384.95 L 12.05 -384.95"
+         id="path3994" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 12.05 -384.95 L 12.05 -381.95"
+         id="path3996" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 12.05 -381.95 L -47.95 -381.95"
+         id="path3998" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -47.95 -381.95 L -47.95 -384.95"
+         id="path4000" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -47.95 -384.95 L -52.95 -384.95"
+         id="path4002" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -52.95 -384.95 L -53.7322 -384.888"
+         id="path4004" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -53.7322 -384.888 L -54.4951 -384.705"
+         id="path4006" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -54.4951 -384.705 L -55.2201 -384.405"
+         id="path4008" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -55.2201 -384.405 L -55.889 -383.995"
+         id="path4010" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -55.889 -383.995 L -56.4856 -383.485"
+         id="path4012" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -56.4856 -383.485 L -56.9951 -382.889"
+         id="path4014" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -56.9951 -382.889 L -57.4051 -382.22"
+         id="path4016" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -57.4051 -382.22 L -57.7054 -381.495"
+         id="path4018" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -57.7054 -381.495 L -57.8885 -380.732"
+         id="path4020" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -57.8885 -380.732 L -57.95 -379.95"
+         id="path4022" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -57.95 -379.95 L -57.95 -305.95"
+         id="path4024" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -57.95 -305.95 L -57.8885 -305.168"
+         id="path4026" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -57.8885 -305.168 L -57.7054 -304.405"
+         id="path4028" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -57.7054 -304.405 L -57.4051 -303.68"
+         id="path4030" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -57.4051 -303.68 L -56.9951 -303.011"
+         id="path4032" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -56.9951 -303.011 L -56.4856 -302.414"
+         id="path4034" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -56.4856 -302.414 L -55.889 -301.905"
+         id="path4036" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -55.889 -301.905 L -55.2201 -301.495"
+         id="path4038" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -55.2201 -301.495 L -54.4951 -301.195"
+         id="path4040" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -54.4951 -301.195 L -53.7322 -301.011"
+         id="path4042" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -53.7322 -301.011 L -52.95 -300.95"
+         id="path4044" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -52.95 -300.95 L -47.95 -300.95"
+         id="path4046" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -47.95 -300.95 L -47.95 -303.95"
+         id="path4048" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -42.95 -310.95 L -43.7322 -311.011"
+         id="path4050" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -43.7322 -311.011 L -44.4951 -311.195"
+         id="path4052" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -44.4951 -311.195 L -45.2201 -311.495"
+         id="path4054" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -45.2201 -311.495 L -45.889 -311.905"
+         id="path4056" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -45.889 -311.905 L -46.4856 -312.414"
+         id="path4058" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -46.4856 -312.414 L -46.9951 -313.011"
+         id="path4060" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -46.9951 -313.011 L -47.4051 -313.68"
+         id="path4062" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -47.4051 -313.68 L -47.7054 -314.405"
+         id="path4064" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -47.7054 -314.405 L -47.8885 -315.168"
+         id="path4066" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -47.8885 -315.168 L -47.95 -315.95"
+         id="path4068" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -47.95 -315.95 L -47.95 -369.95"
+         id="path4070" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -47.95 -369.95 L -47.8885 -370.732"
+         id="path4072" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -47.8885 -370.732 L -47.7054 -371.495"
+         id="path4074" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -47.7054 -371.495 L -47.4051 -372.22"
+         id="path4076" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -47.4051 -372.22 L -46.9951 -372.889"
+         id="path4078" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -46.9951 -372.889 L -46.4856 -373.485"
+         id="path4080" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -46.4856 -373.485 L -45.889 -373.995"
+         id="path4082" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -45.889 -373.995 L -45.2201 -374.405"
+         id="path4084" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -45.2201 -374.405 L -44.4951 -374.705"
+         id="path4086" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -44.4951 -374.705 L -43.7322 -374.888"
+         id="path4088" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -43.7322 -374.888 L -42.95 -374.95"
+         id="path4090" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M -42.95 -374.95 L 7.05 -374.95"
+         id="path4092" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 7.05 -374.95 L 7.8322 -374.888"
+         id="path4094" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 7.8322 -374.888 L 8.595 -374.705"
+         id="path4096" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 8.595 -374.705 L 9.3199 -374.405"
+         id="path4098" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 9.3199 -374.405 L 9.9888 -373.995"
+         id="path4100" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 9.9888 -373.995 L 10.5855 -373.485"
+         id="path4102" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 10.5855 -373.485 L 11.095 -372.889"
+         id="path4104" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 11.095 -372.889 L 11.505 -372.22"
+         id="path4106" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 11.505 -372.22 L 11.8052 -371.495"
+         id="path4108" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 11.8052 -371.495 L 11.9884 -370.732"
+         id="path4110" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 11.9884 -370.732 L 12.05 -369.95"
+         id="path4112" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 12.05 -369.95 L 12.05 -315.95"
+         id="path4114" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 12.05 -315.95 L 11.9884 -315.168"
+         id="path4116" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 11.9884 -315.168 L 11.8052 -314.405"
+         id="path4118" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 11.8052 -314.405 L 11.505 -313.68"
+         id="path4120" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 11.505 -313.68 L 11.095 -313.011"
+         id="path4122" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 11.095 -313.011 L 10.5855 -312.414"
+         id="path4124" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 10.5855 -312.414 L 9.9888 -311.905"
+         id="path4126" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 9.9888 -311.905 L 9.3199 -311.495"
+         id="path4128" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 9.3199 -311.495 L 8.595 -311.195"
+         id="path4130" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 8.595 -311.195 L 7.8322 -311.011"
+         id="path4132" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 7.8322 -311.011 L 7.05 -310.95"
+         id="path4134" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 7.05 -310.95 L -42.95 -310.95"
+         id="path4136" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 21.8153 -356.468 L 21.5864 -356.523"
+         id="path4138" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 21.5864 -356.523 L 21.369 -356.613"
+         id="path4140" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 21.369 -356.613 L 21.1682 -356.736"
+         id="path4142" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 21.1682 -356.736 L 20.9892 -356.889"
+         id="path4144" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 20.9892 -356.889 L 20.8365 -357.068"
+         id="path4146" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 20.8365 -357.068 L 20.7135 -357.269"
+         id="path4148" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 20.7135 -357.269 L 20.6233 -357.486"
+         id="path4150" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 20.6233 -357.486 L 20.5684 -357.715"
+         id="path4152" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 20.5684 -357.715 L 20.5499 -357.95"
+         id="path4154" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 20.5499 -357.95 L 20.5684 -358.185"
+         id="path4156" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 20.5684 -358.185 L 20.6233 -358.414"
+         id="path4158" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 20.6233 -358.414 L 20.7135 -358.631"
+         id="path4160" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 20.7135 -358.631 L 20.8365 -358.832"
+         id="path4162" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 20.8365 -358.832 L 20.9892 -359.011"
+         id="path4164" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 20.9892 -359.011 L 21.1682 -359.164"
+         id="path4166" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 21.1682 -359.164 L 21.369 -359.286"
+         id="path4168" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 21.369 -359.286 L 21.5864 -359.377"
+         id="path4170" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 21.5864 -359.377 L 21.8153 -359.431"
+         id="path4172" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 21.8153 -359.431 L 22.05 -359.45"
+         id="path4174" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 22.05 -359.45 L 22.2845 -359.431"
+         id="path4176" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 22.2845 -359.431 L 22.5134 -359.377"
+         id="path4178" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 22.5134 -359.377 L 22.7308 -359.286"
+         id="path4180" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 22.7308 -359.286 L 22.9317 -359.164"
+         id="path4182" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 22.9317 -359.164 L 23.1106 -359.011"
+         id="path4184" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 23.1106 -359.011 L 23.2634 -358.832"
+         id="path4186" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 23.2634 -358.832 L 23.3864 -358.631"
+         id="path4188" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 23.3864 -358.631 L 23.4765 -358.414"
+         id="path4190" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 23.4765 -358.414 L 23.5315 -358.185"
+         id="path4192" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 23.5315 -358.185 L 23.5499 -357.95"
+         id="path4194" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 23.5499 -357.95 L 23.5315 -357.715"
+         id="path4196" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 23.5315 -357.715 L 23.4765 -357.486"
+         id="path4198" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 23.4765 -357.486 L 23.3864 -357.269"
+         id="path4200" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 23.3864 -357.269 L 23.2634 -357.068"
+         id="path4202" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 23.2634 -357.068 L 23.1106 -356.889"
+         id="path4204" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 23.1106 -356.889 L 22.9317 -356.736"
+         id="path4206" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 22.9317 -356.736 L 22.7308 -356.613"
+         id="path4208" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 22.7308 -356.613 L 22.5134 -356.523"
+         id="path4210" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 22.5134 -356.523 L 22.2845 -356.468"
+         id="path4212" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 22.2845 -356.468 L 22.05 -356.45"
+         id="path4214" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 22.05 -356.45 L 21.8153 -356.468"
+         id="path4216" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 21.8153 -326.468 L 21.5864 -326.523"
+         id="path4218" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 21.5864 -326.523 L 21.369 -326.613"
+         id="path4220" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 21.369 -326.613 L 21.1682 -326.736"
+         id="path4222" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 21.1682 -326.736 L 20.9892 -326.889"
+         id="path4224" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 20.9892 -326.889 L 20.8365 -327.068"
+         id="path4226" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 20.8365 -327.068 L 20.7135 -327.269"
+         id="path4228" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 20.7135 -327.269 L 20.6233 -327.486"
+         id="path4230" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 20.6233 -327.486 L 20.5684 -327.715"
+         id="path4232" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 20.5684 -327.715 L 20.5499 -327.95"
+         id="path4234" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 20.5499 -327.95 L 20.5684 -328.185"
+         id="path4236" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 20.5684 -328.185 L 20.6233 -328.413"
+         id="path4238" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 20.6233 -328.413 L 20.7135 -328.631"
+         id="path4240" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 20.7135 -328.631 L 20.8365 -328.832"
+         id="path4242" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 20.8365 -328.832 L 20.9892 -329.011"
+         id="path4244" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 20.9892 -329.011 L 21.1682 -329.164"
+         id="path4246" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 21.1682 -329.164 L 21.369 -329.286"
+         id="path4248" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 21.369 -329.286 L 21.5864 -329.377"
+         id="path4250" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 21.5864 -329.377 L 21.8153 -329.431"
+         id="path4252" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 21.8153 -329.431 L 22.05 -329.45"
+         id="path4254" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 22.05 -329.45 L 22.2845 -329.431"
+         id="path4256" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 22.2845 -329.431 L 22.5134 -329.377"
+         id="path4258" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 22.5134 -329.377 L 22.7308 -329.286"
+         id="path4260" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 22.7308 -329.286 L 22.9317 -329.164"
+         id="path4262" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 22.9317 -329.164 L 23.1106 -329.011"
+         id="path4264" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 23.1106 -329.011 L 23.2634 -328.832"
+         id="path4266" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 23.2634 -328.832 L 23.3864 -328.631"
+         id="path4268" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 23.3864 -328.631 L 23.4765 -328.413"
+         id="path4270" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 23.4765 -328.413 L 23.5315 -328.185"
+         id="path4272" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 23.5315 -328.185 L 23.5499 -327.95"
+         id="path4274" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 23.5499 -327.95 L 23.5315 -327.715"
+         id="path4276" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 23.5315 -327.715 L 23.4765 -327.486"
+         id="path4278" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 23.4765 -327.486 L 23.3864 -327.269"
+         id="path4280" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 23.3864 -327.269 L 23.2634 -327.068"
+         id="path4282" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 23.2634 -327.068 L 23.1106 -326.889"
+         id="path4284" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 23.1106 -326.889 L 22.9317 -326.736"
+         id="path4286" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 22.9317 -326.736 L 22.7308 -326.613"
+         id="path4288" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 22.7308 -326.613 L 22.5134 -326.523"
+         id="path4290" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 22.5134 -326.523 L 22.2845 -326.468"
+         id="path4292" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 22.2845 -326.468 L 22.05 -326.45"
+         id="path4294" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 22.05 -326.45 L 21.8153 -326.468"
+         id="path4296" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 152.471 -384.95 L 142.471 -384.95"
+         id="path4298" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 142.471 -384.95 L 142.471 -300.95"
+         id="path4300" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 142.471 -300.95 L 152.471 -300.95"
+         id="path4302" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 152.471 -300.95 L 152.471 -384.95"
+         id="path4304" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 81.788 -343.665 L 112.832 -351.011"
+         id="path4306" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 112.832 -351.011 L 113.595 -351.195"
+         id="path4308" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 113.595 -351.195 L 114.32 -351.495"
+         id="path4310" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 114.32 -351.495 L 114.989 -351.905"
+         id="path4312" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 114.989 -351.905 L 115.585 -352.414"
+         id="path4314" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 115.585 -352.414 L 116.095 -353.011"
+         id="path4316" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 116.095 -353.011 L 116.505 -353.68"
+         id="path4318" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 116.505 -353.68 L 116.805 -354.405"
+         id="path4320" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 116.805 -354.405 L 116.988 -355.168"
+         id="path4322" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 116.988 -355.168 L 117.05 -355.95"
+         id="path4324" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 117.05 -355.95 L 117.05 -360.95"
+         id="path4326" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 117.05 -360.95 L 114.05 -360.95"
+         id="path4328" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 114.05 -360.95 L 114.05 -370.95"
+         id="path4330" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 114.05 -370.95 L 117.05 -370.95"
+         id="path4332" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 117.05 -370.95 L 117.05 -380.95"
+         id="path4334" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 117.05 -380.95 L 114.05 -380.95"
+         id="path4336" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 114.05 -380.95 L 114.05 -383.95"
+         id="path4338" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 114.05 -383.95 L 54.05 -383.95"
+         id="path4340" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 54.05 -383.95 L 54.05 -380.95"
+         id="path4342" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 54.05 -380.95 L 42.05 -380.95"
+         id="path4344" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 42.05 -380.95 L 41.2678 -380.888"
+         id="path4346" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 41.2678 -380.888 L 40.5049 -380.705"
+         id="path4348" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 40.5049 -380.705 L 39.7799 -380.405"
+         id="path4350" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 39.7799 -380.405 L 39.111 -379.995"
+         id="path4352" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 39.111 -379.995 L 38.5144 -379.485"
+         id="path4354" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 38.5144 -379.485 L 38.0049 -378.889"
+         id="path4356" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 38.0049 -378.889 L 37.5949 -378.22"
+         id="path4358" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 37.5949 -378.22 L 37.2946 -377.495"
+         id="path4360" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 37.2946 -377.495 L 37.1115 -376.732"
+         id="path4362" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 37.1115 -376.732 L 37.05 -375.95"
+         id="path4364" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 37.05 -375.95 L 37.1115 -375.168"
+         id="path4366" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 37.1115 -375.168 L 37.2946 -374.405"
+         id="path4368" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 37.2946 -374.405 L 42.295 -354.405"
+         id="path4370" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 42.295 -354.405 L 42.595 -353.68"
+         id="path4372" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 42.595 -353.68 L 43.005 -353.011"
+         id="path4374" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 43.005 -353.011 L 43.514 -352.414"
+         id="path4376" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 43.514 -352.414 L 44.111 -351.905"
+         id="path4378" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 44.111 -351.905 L 44.78 -351.495"
+         id="path4380" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 44.78 -351.495 L 45.505 -351.195"
+         id="path4382" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 45.505 -351.195 L 73.642 -344.306"
+         id="path4384" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 73.642 -344.306 L 76.312 -343.665"
+         id="path4386" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 76.312 -343.665 L 79.05 -343.45"
+         id="path4388" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 79.05 -343.45 L 81.788 -343.665"
+         id="path4390" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 101.424 -369.999 L 100.814 -370.146"
+         id="path4392" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 100.814 -370.146 L 100.234 -370.386"
+         id="path4394" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 100.234 -370.386 L 99.699 -370.714"
+         id="path4396" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 99.699 -370.714 L 99.221 -371.122"
+         id="path4398" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 99.221 -371.122 L 98.814 -371.599"
+         id="path4400" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 98.814 -371.599 L 98.486 -372.134"
+         id="path4402" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 98.486 -372.134 L 98.246 -372.714"
+         id="path4404" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 98.246 -372.714 L 98.099 -373.324"
+         id="path4406" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 98.099 -373.324 L 98.05 -373.95"
+         id="path4408" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 98.05 -373.95 L 98.099 -374.576"
+         id="path4410" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 98.099 -374.576 L 98.246 -375.186"
+         id="path4412" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 98.246 -375.186 L 98.486 -375.766"
+         id="path4414" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 98.486 -375.766 L 98.814 -376.301"
+         id="path4416" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 98.814 -376.301 L 99.221 -376.778"
+         id="path4418" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 99.221 -376.778 L 99.699 -377.186"
+         id="path4420" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 99.699 -377.186 L 100.234 -377.514"
+         id="path4422" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 100.234 -377.514 L 100.814 -377.754"
+         id="path4424" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 100.814 -377.754 L 101.424 -377.901"
+         id="path4426" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 101.424 -377.901 L 102.05 -377.95"
+         id="path4428" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 102.05 -377.95 L 102.676 -377.901"
+         id="path4430" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 102.676 -377.901 L 103.286 -377.754"
+         id="path4432" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 103.286 -377.754 L 103.866 -377.514"
+         id="path4434" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 103.866 -377.514 L 104.401 -377.186"
+         id="path4436" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 104.401 -377.186 L 104.878 -376.778"
+         id="path4438" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 104.878 -376.778 L 105.286 -376.301"
+         id="path4440" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 105.286 -376.301 L 105.614 -375.766"
+         id="path4442" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 105.614 -375.766 L 105.854 -375.186"
+         id="path4444" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 105.854 -375.186 L 106.001 -374.576"
+         id="path4446" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 106.001 -374.576 L 106.05 -373.95"
+         id="path4448" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 106.05 -373.95 L 106.001 -373.324"
+         id="path4450" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 106.001 -373.324 L 105.854 -372.714"
+         id="path4452" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 105.854 -372.714 L 105.614 -372.134"
+         id="path4454" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 105.614 -372.134 L 105.286 -371.599"
+         id="path4456" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 105.286 -371.599 L 104.878 -371.122"
+         id="path4458" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 104.878 -371.122 L 104.401 -370.714"
+         id="path4460" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 104.401 -370.714 L 103.866 -370.386"
+         id="path4462" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 103.866 -370.386 L 103.286 -370.146"
+         id="path4464" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 103.286 -370.146 L 102.676 -369.999"
+         id="path4466" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 102.676 -369.999 L 102.05 -369.95"
+         id="path4468" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 102.05 -369.95 L 101.424 -369.999"
+         id="path4470" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 41.8153 -374.468 L 41.5864 -374.523"
+         id="path4472" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 41.5864 -374.523 L 41.369 -374.613"
+         id="path4474" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 41.369 -374.613 L 41.1682 -374.736"
+         id="path4476" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 41.1682 -374.736 L 40.9892 -374.889"
+         id="path4478" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 40.9892 -374.889 L 40.8365 -375.068"
+         id="path4480" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 40.8365 -375.068 L 40.7135 -375.269"
+         id="path4482" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 40.7135 -375.269 L 40.6233 -375.486"
+         id="path4484" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 40.6233 -375.486 L 40.5684 -375.715"
+         id="path4486" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 40.5684 -375.715 L 40.5499 -375.95"
+         id="path4488" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 40.5499 -375.95 L 40.5684 -376.185"
+         id="path4490" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 40.5684 -376.185 L 40.6233 -376.413"
+         id="path4492" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 40.6233 -376.413 L 40.7135 -376.631"
+         id="path4494" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 40.7135 -376.631 L 40.8365 -376.832"
+         id="path4496" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 40.8365 -376.832 L 40.9892 -377.011"
+         id="path4498" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 40.9892 -377.011 L 41.1682 -377.164"
+         id="path4500" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 41.1682 -377.164 L 41.369 -377.287"
+         id="path4502" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 41.369 -377.287 L 41.5864 -377.377"
+         id="path4504" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 41.5864 -377.377 L 41.8153 -377.431"
+         id="path4506" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 41.8153 -377.431 L 42.05 -377.45"
+         id="path4508" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 42.05 -377.45 L 42.285 -377.431"
+         id="path4510" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 42.285 -377.431 L 42.513 -377.377"
+         id="path4512" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 42.513 -377.377 L 42.731 -377.287"
+         id="path4514" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 42.731 -377.287 L 42.932 -377.164"
+         id="path4516" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 42.932 -377.164 L 43.111 -377.011"
+         id="path4518" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 43.111 -377.011 L 43.263 -376.832"
+         id="path4520" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 43.263 -376.832 L 43.386 -376.631"
+         id="path4522" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 43.386 -376.631 L 43.477 -376.413"
+         id="path4524" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 43.477 -376.413 L 43.531 -376.185"
+         id="path4526" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 43.531 -376.185 L 43.55 -375.95"
+         id="path4528" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 43.55 -375.95 L 43.531 -375.715"
+         id="path4530" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 43.531 -375.715 L 43.477 -375.486"
+         id="path4532" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 43.477 -375.486 L 43.386 -375.269"
+         id="path4534" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 43.386 -375.269 L 43.263 -375.068"
+         id="path4536" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 43.263 -375.068 L 43.111 -374.889"
+         id="path4538" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 43.111 -374.889 L 42.932 -374.736"
+         id="path4540" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 42.932 -374.736 L 42.731 -374.613"
+         id="path4542" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 42.731 -374.613 L 42.513 -374.523"
+         id="path4544" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 42.513 -374.523 L 42.285 -374.468"
+         id="path4546" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 42.285 -374.468 L 42.05 -374.45"
+         id="path4548" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 42.05 -374.45 L 41.8153 -374.468"
+         id="path4550" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 74.877 -354.542 L 73.732 -354.817"
+         id="path4552" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 73.732 -354.817 L 72.645 -355.267"
+         id="path4554" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 72.645 -355.267 L 71.642 -355.882"
+         id="path4556" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 71.642 -355.882 L 70.747 -356.647"
+         id="path4558" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 70.747 -356.647 L 69.982 -357.541"
+         id="path4560" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 69.982 -357.541 L 69.367 -358.545"
+         id="path4562" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 69.367 -358.545 L 68.917 -359.632"
+         id="path4564" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 68.917 -359.632 L 68.642 -360.777"
+         id="path4566" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 68.642 -360.777 L 68.55 -361.95"
+         id="path4568" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 68.55 -361.95 L 68.642 -363.123"
+         id="path4570" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 68.642 -363.123 L 68.917 -364.268"
+         id="path4572" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 68.917 -364.268 L 69.367 -365.355"
+         id="path4574" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 69.367 -365.355 L 69.982 -366.358"
+         id="path4576" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 69.982 -366.358 L 70.747 -367.253"
+         id="path4578" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 70.747 -367.253 L 71.642 -368.018"
+         id="path4580" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 71.642 -368.018 L 72.645 -368.632"
+         id="path4582" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 72.645 -368.632 L 73.732 -369.083"
+         id="path4584" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 73.732 -369.083 L 74.877 -369.358"
+         id="path4586" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 74.877 -369.358 L 76.05 -369.45"
+         id="path4588" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 76.05 -369.45 L 77.223 -369.358"
+         id="path4590" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 77.223 -369.358 L 78.368 -369.083"
+         id="path4592" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 78.368 -369.083 L 79.455 -368.632"
+         id="path4594" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 79.455 -368.632 L 80.458 -368.018"
+         id="path4596" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 80.458 -368.018 L 81.353 -367.253"
+         id="path4598" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 81.353 -367.253 L 82.118 -366.358"
+         id="path4600" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 82.118 -366.358 L 82.733 -365.355"
+         id="path4602" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 82.733 -365.355 L 83.183 -364.268"
+         id="path4604" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 83.183 -364.268 L 83.458 -363.123"
+         id="path4606" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 83.458 -363.123 L 83.55 -361.95"
+         id="path4608" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 83.55 -361.95 L 83.458 -360.777"
+         id="path4610" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 83.458 -360.777 L 83.183 -359.632"
+         id="path4612" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 83.183 -359.632 L 82.733 -358.545"
+         id="path4614" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 82.733 -358.545 L 82.118 -357.541"
+         id="path4616" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 82.118 -357.541 L 81.353 -356.647"
+         id="path4618" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 81.353 -356.647 L 80.458 -355.882"
+         id="path4620" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 80.458 -355.882 L 79.455 -355.267"
+         id="path4622" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 79.455 -355.267 L 78.368 -354.817"
+         id="path4624" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 78.368 -354.817 L 77.223 -354.542"
+         id="path4626" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 77.223 -354.542 L 76.05 -354.45"
+         id="path4628" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 76.05 -354.45 L 74.877 -354.542"
+         id="path4630" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 62.55 -360.45 L 62.315 -360.468"
+         id="path4632" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 62.315 -360.468 L 62.086 -360.523"
+         id="path4634" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 62.086 -360.523 L 61.869 -360.613"
+         id="path4636" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 61.869 -360.613 L 61.668 -360.736"
+         id="path4638" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 61.668 -360.736 L 61.489 -360.889"
+         id="path4640" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 61.489 -360.889 L 61.336 -361.068"
+         id="path4642" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 61.336 -361.068 L 61.213 -361.269"
+         id="path4644" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 61.213 -361.269 L 61.123 -361.486"
+         id="path4646" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 61.123 -361.486 L 61.068 -361.715"
+         id="path4648" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 61.068 -361.715 L 61.05 -361.95"
+         id="path4650" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 61.05 -361.95 L 61.068 -362.185"
+         id="path4652" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 61.068 -362.185 L 61.123 -362.413"
+         id="path4654" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 61.123 -362.413 L 61.213 -362.631"
+         id="path4656" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 61.213 -362.631 L 61.336 -362.832"
+         id="path4658" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 61.336 -362.832 L 61.489 -363.011"
+         id="path4660" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 61.489 -363.011 L 61.668 -363.163"
+         id="path4662" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 61.668 -363.163 L 61.869 -363.286"
+         id="path4664" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 61.869 -363.286 L 62.086 -363.376"
+         id="path4666" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 62.086 -363.376 L 62.315 -363.432"
+         id="path4668" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 62.315 -363.432 L 62.55 -363.45"
+         id="path4670" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 62.55 -363.45 L 64.55 -363.45"
+         id="path4672" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 64.55 -363.45 L 64.785 -363.432"
+         id="path4674" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 64.785 -363.432 L 65.013 -363.376"
+         id="path4676" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 65.013 -363.376 L 65.231 -363.286"
+         id="path4678" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 65.231 -363.286 L 65.432 -363.163"
+         id="path4680" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 65.432 -363.163 L 65.611 -363.011"
+         id="path4682" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 65.611 -363.011 L 65.763 -362.832"
+         id="path4684" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 65.763 -362.832 L 65.886 -362.631"
+         id="path4686" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 65.886 -362.631 L 65.977 -362.413"
+         id="path4688" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 65.977 -362.413 L 66.031 -362.185"
+         id="path4690" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 66.031 -362.185 L 66.05 -361.95"
+         id="path4692" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 66.05 -361.95 L 66.031 -361.715"
+         id="path4694" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 66.031 -361.715 L 65.977 -361.486"
+         id="path4696" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 65.977 -361.486 L 65.886 -361.269"
+         id="path4698" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 65.886 -361.269 L 65.763 -361.068"
+         id="path4700" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 65.763 -361.068 L 65.611 -360.889"
+         id="path4702" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 65.611 -360.889 L 65.432 -360.736"
+         id="path4704" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 65.432 -360.736 L 65.231 -360.613"
+         id="path4706" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 65.231 -360.613 L 65.013 -360.523"
+         id="path4708" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 65.013 -360.523 L 64.785 -360.468"
+         id="path4710" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 64.785 -360.468 L 64.55 -360.45"
+         id="path4712" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 64.55 -360.45 L 62.55 -360.45"
+         id="path4714" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 87.55 -360.45 L 87.315 -360.468"
+         id="path4716" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 87.315 -360.468 L 87.086 -360.523"
+         id="path4718" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 87.086 -360.523 L 86.869 -360.613"
+         id="path4720" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 86.869 -360.613 L 86.668 -360.736"
+         id="path4722" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 86.668 -360.736 L 86.489 -360.889"
+         id="path4724" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 86.489 -360.889 L 86.336 -361.068"
+         id="path4726" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 86.336 -361.068 L 86.213 -361.269"
+         id="path4728" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 86.213 -361.269 L 86.123 -361.486"
+         id="path4730" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 86.123 -361.486 L 86.068 -361.715"
+         id="path4732" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 86.068 -361.715 L 86.05 -361.95"
+         id="path4734" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 86.05 -361.95 L 86.068 -362.185"
+         id="path4736" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 86.068 -362.185 L 86.123 -362.413"
+         id="path4738" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 86.123 -362.413 L 86.213 -362.631"
+         id="path4740" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 86.213 -362.631 L 86.336 -362.832"
+         id="path4742" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 86.336 -362.832 L 86.489 -363.011"
+         id="path4744" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 86.489 -363.011 L 86.668 -363.163"
+         id="path4746" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 86.668 -363.163 L 86.869 -363.286"
+         id="path4748" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 86.869 -363.286 L 87.086 -363.376"
+         id="path4750" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 87.086 -363.376 L 87.315 -363.432"
+         id="path4752" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 87.315 -363.432 L 87.55 -363.45"
+         id="path4754" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 87.55 -363.45 L 89.55 -363.45"
+         id="path4756" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 89.55 -363.45 L 89.785 -363.432"
+         id="path4758" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 89.785 -363.432 L 90.013 -363.376"
+         id="path4760" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 90.013 -363.376 L 90.231 -363.286"
+         id="path4762" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 90.231 -363.286 L 90.432 -363.163"
+         id="path4764" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 90.432 -363.163 L 90.611 -363.011"
+         id="path4766" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 90.611 -363.011 L 90.763 -362.832"
+         id="path4768" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 90.763 -362.832 L 90.886 -362.631"
+         id="path4770" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 90.886 -362.631 L 90.977 -362.413"
+         id="path4772" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 90.977 -362.413 L 91.031 -362.185"
+         id="path4774" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 91.031 -362.185 L 91.05 -361.95"
+         id="path4776" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 91.05 -361.95 L 91.031 -361.715"
+         id="path4778" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 91.031 -361.715 L 90.977 -361.486"
+         id="path4780" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 90.977 -361.486 L 90.886 -361.269"
+         id="path4782" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 90.886 -361.269 L 90.763 -361.068"
+         id="path4784" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 90.763 -361.068 L 90.611 -360.889"
+         id="path4786" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 90.611 -360.889 L 90.432 -360.736"
+         id="path4788" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 90.432 -360.736 L 90.231 -360.613"
+         id="path4790" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 90.231 -360.613 L 90.013 -360.523"
+         id="path4792" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 90.013 -360.523 L 89.785 -360.468"
+         id="path4794" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 89.785 -360.468 L 89.55 -360.45"
+         id="path4796" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 89.55 -360.45 L 87.55 -360.45"
+         id="path4798" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 45.05 -352.95 L 45.05 -355.95"
+         id="path4800" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 45.05 -355.95 L 55.05 -355.95"
+         id="path4802" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 55.05 -355.95 L 55.05 -352.95"
+         id="path4804" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 55.05 -352.95 L 45.05 -352.95"
+         id="path4806" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 81.788 -293.665 L 112.832 -301.011"
+         id="path4808" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 112.832 -301.011 L 113.595 -301.195"
+         id="path4810" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 113.595 -301.195 L 114.32 -301.495"
+         id="path4812" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 114.32 -301.495 L 114.989 -301.905"
+         id="path4814" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 114.989 -301.905 L 115.585 -302.414"
+         id="path4816" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 115.585 -302.414 L 116.095 -303.011"
+         id="path4818" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 116.095 -303.011 L 116.505 -303.68"
+         id="path4820" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 116.505 -303.68 L 116.805 -304.405"
+         id="path4822" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 116.805 -304.405 L 116.988 -305.168"
+         id="path4824" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 116.988 -305.168 L 117.05 -305.95"
+         id="path4826" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 117.05 -305.95 L 117.05 -310.95"
+         id="path4828" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 117.05 -310.95 L 114.05 -310.95"
+         id="path4830" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 114.05 -310.95 L 114.05 -320.95"
+         id="path4832" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 114.05 -320.95 L 117.05 -320.95"
+         id="path4834" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 117.05 -320.95 L 117.05 -330.95"
+         id="path4836" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 117.05 -330.95 L 114.05 -330.95"
+         id="path4838" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 114.05 -330.95 L 114.05 -333.95"
+         id="path4840" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 114.05 -333.95 L 54.05 -333.95"
+         id="path4842" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 54.05 -333.95 L 54.05 -330.95"
+         id="path4844" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 54.05 -330.95 L 42.05 -330.95"
+         id="path4846" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 42.05 -330.95 L 41.2678 -330.888"
+         id="path4848" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 41.2678 -330.888 L 40.5049 -330.705"
+         id="path4850" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 40.5049 -330.705 L 39.7799 -330.405"
+         id="path4852" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 39.7799 -330.405 L 39.111 -329.995"
+         id="path4854" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 39.111 -329.995 L 38.5144 -329.485"
+         id="path4856" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 38.5144 -329.485 L 38.0049 -328.889"
+         id="path4858" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 38.0049 -328.889 L 37.5949 -328.22"
+         id="path4860" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 37.5949 -328.22 L 37.2946 -327.495"
+         id="path4862" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 37.2946 -327.495 L 37.1115 -326.732"
+         id="path4864" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 37.1115 -326.732 L 37.05 -325.95"
+         id="path4866" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 37.05 -325.95 L 37.1115 -325.168"
+         id="path4868" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 37.1115 -325.168 L 37.2946 -324.405"
+         id="path4870" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 37.2946 -324.405 L 42.295 -304.405"
+         id="path4872" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 42.295 -304.405 L 42.595 -303.68"
+         id="path4874" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 42.595 -303.68 L 43.005 -303.011"
+         id="path4876" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 43.005 -303.011 L 43.514 -302.414"
+         id="path4878" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 43.514 -302.414 L 44.111 -301.905"
+         id="path4880" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 44.111 -301.905 L 44.78 -301.495"
+         id="path4882" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 44.78 -301.495 L 45.505 -301.195"
+         id="path4884" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 45.505 -301.195 L 73.642 -294.306"
+         id="path4886" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 73.642 -294.306 L 76.312 -293.665"
+         id="path4888" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 76.312 -293.665 L 79.05 -293.45"
+         id="path4890" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 79.05 -293.45 L 81.788 -293.665"
+         id="path4892" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 101.424 -319.999 L 100.814 -320.146"
+         id="path4894" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 100.814 -320.146 L 100.234 -320.386"
+         id="path4896" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 100.234 -320.386 L 99.699 -320.714"
+         id="path4898" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 99.699 -320.714 L 99.221 -321.122"
+         id="path4900" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 99.221 -321.122 L 98.814 -321.599"
+         id="path4902" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 98.814 -321.599 L 98.486 -322.134"
+         id="path4904" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 98.486 -322.134 L 98.246 -322.714"
+         id="path4906" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 98.246 -322.714 L 98.099 -323.324"
+         id="path4908" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 98.099 -323.324 L 98.05 -323.95"
+         id="path4910" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 98.05 -323.95 L 98.099 -324.576"
+         id="path4912" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 98.099 -324.576 L 98.246 -325.186"
+         id="path4914" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 98.246 -325.186 L 98.486 -325.766"
+         id="path4916" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 98.486 -325.766 L 98.814 -326.301"
+         id="path4918" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 98.814 -326.301 L 99.221 -326.778"
+         id="path4920" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 99.221 -326.778 L 99.699 -327.186"
+         id="path4922" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 99.699 -327.186 L 100.234 -327.514"
+         id="path4924" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 100.234 -327.514 L 100.814 -327.754"
+         id="path4926" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 100.814 -327.754 L 101.424 -327.901"
+         id="path4928" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 101.424 -327.901 L 102.05 -327.95"
+         id="path4930" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 102.05 -327.95 L 102.676 -327.901"
+         id="path4932" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 102.676 -327.901 L 103.286 -327.754"
+         id="path4934" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 103.286 -327.754 L 103.866 -327.514"
+         id="path4936" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 103.866 -327.514 L 104.401 -327.186"
+         id="path4938" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 104.401 -327.186 L 104.878 -326.778"
+         id="path4940" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 104.878 -326.778 L 105.286 -326.301"
+         id="path4942" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 105.286 -326.301 L 105.614 -325.766"
+         id="path4944" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 105.614 -325.766 L 105.854 -325.186"
+         id="path4946" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 105.854 -325.186 L 106.001 -324.576"
+         id="path4948" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 106.001 -324.576 L 106.05 -323.95"
+         id="path4950" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 106.05 -323.95 L 106.001 -323.324"
+         id="path4952" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 106.001 -323.324 L 105.854 -322.714"
+         id="path4954" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 105.854 -322.714 L 105.614 -322.134"
+         id="path4956" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 105.614 -322.134 L 105.286 -321.599"
+         id="path4958" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 105.286 -321.599 L 104.878 -321.122"
+         id="path4960" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 104.878 -321.122 L 104.401 -320.714"
+         id="path4962" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 104.401 -320.714 L 103.866 -320.386"
+         id="path4964" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 103.866 -320.386 L 103.286 -320.146"
+         id="path4966" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 103.286 -320.146 L 102.676 -319.999"
+         id="path4968" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 102.676 -319.999 L 102.05 -319.95"
+         id="path4970" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 102.05 -319.95 L 101.424 -319.999"
+         id="path4972" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 41.8153 -324.468 L 41.5864 -324.523"
+         id="path4974" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 41.5864 -324.523 L 41.369 -324.613"
+         id="path4976" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 41.369 -324.613 L 41.1682 -324.736"
+         id="path4978" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 41.1682 -324.736 L 40.9892 -324.889"
+         id="path4980" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 40.9892 -324.889 L 40.8365 -325.068"
+         id="path4982" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 40.8365 -325.068 L 40.7135 -325.269"
+         id="path4984" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 40.7135 -325.269 L 40.6233 -325.486"
+         id="path4986" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 40.6233 -325.486 L 40.5684 -325.715"
+         id="path4988" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 40.5684 -325.715 L 40.5499 -325.95"
+         id="path4990" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 40.5499 -325.95 L 40.5684 -326.185"
+         id="path4992" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 40.5684 -326.185 L 40.6233 -326.413"
+         id="path4994" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 40.6233 -326.413 L 40.7135 -326.631"
+         id="path4996" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 40.7135 -326.631 L 40.8365 -326.832"
+         id="path4998" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 40.8365 -326.832 L 40.9892 -327.011"
+         id="path5000" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 40.9892 -327.011 L 41.1682 -327.164"
+         id="path5002" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 41.1682 -327.164 L 41.369 -327.287"
+         id="path5004" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 41.369 -327.287 L 41.5864 -327.377"
+         id="path5006" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 41.5864 -327.377 L 41.8153 -327.431"
+         id="path5008" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 41.8153 -327.431 L 42.05 -327.45"
+         id="path5010" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 42.05 -327.45 L 42.285 -327.431"
+         id="path5012" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 42.285 -327.431 L 42.513 -327.377"
+         id="path5014" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 42.513 -327.377 L 42.731 -327.287"
+         id="path5016" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 42.731 -327.287 L 42.932 -327.164"
+         id="path5018" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 42.932 -327.164 L 43.111 -327.011"
+         id="path5020" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 43.111 -327.011 L 43.263 -326.832"
+         id="path5022" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 43.263 -326.832 L 43.386 -326.631"
+         id="path5024" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 43.386 -326.631 L 43.477 -326.413"
+         id="path5026" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 43.477 -326.413 L 43.531 -326.185"
+         id="path5028" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 43.531 -326.185 L 43.55 -325.95"
+         id="path5030" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 43.55 -325.95 L 43.531 -325.715"
+         id="path5032" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 43.531 -325.715 L 43.477 -325.486"
+         id="path5034" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 43.477 -325.486 L 43.386 -325.269"
+         id="path5036" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 43.386 -325.269 L 43.263 -325.068"
+         id="path5038" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 43.263 -325.068 L 43.111 -324.889"
+         id="path5040" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 43.111 -324.889 L 42.932 -324.736"
+         id="path5042" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 42.932 -324.736 L 42.731 -324.613"
+         id="path5044" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 42.731 -324.613 L 42.513 -324.523"
+         id="path5046" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 42.513 -324.523 L 42.285 -324.468"
+         id="path5048" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 42.285 -324.468 L 42.05 -324.45"
+         id="path5050" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 42.05 -324.45 L 41.8153 -324.468"
+         id="path5052" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 74.877 -304.542 L 73.732 -304.817"
+         id="path5054" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 73.732 -304.817 L 72.645 -305.267"
+         id="path5056" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 72.645 -305.267 L 71.642 -305.882"
+         id="path5058" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 71.642 -305.882 L 70.747 -306.647"
+         id="path5060" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 70.747 -306.647 L 69.982 -307.541"
+         id="path5062" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 69.982 -307.541 L 69.367 -308.545"
+         id="path5064" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 69.367 -308.545 L 68.917 -309.632"
+         id="path5066" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 68.917 -309.632 L 68.642 -310.777"
+         id="path5068" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 68.642 -310.777 L 68.55 -311.95"
+         id="path5070" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 68.55 -311.95 L 68.642 -313.123"
+         id="path5072" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 68.642 -313.123 L 68.917 -314.268"
+         id="path5074" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 68.917 -314.268 L 69.367 -315.355"
+         id="path5076" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 69.367 -315.355 L 69.982 -316.358"
+         id="path5078" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 69.982 -316.358 L 70.747 -317.253"
+         id="path5080" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 70.747 -317.253 L 71.642 -318.018"
+         id="path5082" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 71.642 -318.018 L 72.645 -318.632"
+         id="path5084" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 72.645 -318.632 L 73.732 -319.083"
+         id="path5086" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 73.732 -319.083 L 74.877 -319.358"
+         id="path5088" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 74.877 -319.358 L 76.05 -319.45"
+         id="path5090" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 76.05 -319.45 L 77.223 -319.358"
+         id="path5092" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 77.223 -319.358 L 78.368 -319.083"
+         id="path5094" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 78.368 -319.083 L 79.455 -318.632"
+         id="path5096" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 79.455 -318.632 L 80.458 -318.018"
+         id="path5098" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 80.458 -318.018 L 81.353 -317.253"
+         id="path5100" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 81.353 -317.253 L 82.118 -316.358"
+         id="path5102" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 82.118 -316.358 L 82.733 -315.355"
+         id="path5104" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 82.733 -315.355 L 83.183 -314.268"
+         id="path5106" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 83.183 -314.268 L 83.458 -313.123"
+         id="path5108" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 83.458 -313.123 L 83.55 -311.95"
+         id="path5110" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 83.55 -311.95 L 83.458 -310.777"
+         id="path5112" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 83.458 -310.777 L 83.183 -309.632"
+         id="path5114" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 83.183 -309.632 L 82.733 -308.545"
+         id="path5116" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 82.733 -308.545 L 82.118 -307.541"
+         id="path5118" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 82.118 -307.541 L 81.353 -306.647"
+         id="path5120" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 81.353 -306.647 L 80.458 -305.882"
+         id="path5122" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 80.458 -305.882 L 79.455 -305.267"
+         id="path5124" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 79.455 -305.267 L 78.368 -304.817"
+         id="path5126" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 78.368 -304.817 L 77.223 -304.542"
+         id="path5128" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 77.223 -304.542 L 76.05 -304.45"
+         id="path5130" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 76.05 -304.45 L 74.877 -304.542"
+         id="path5132" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 87.55 -310.45 L 87.315 -310.468"
+         id="path5134" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 87.315 -310.468 L 87.086 -310.523"
+         id="path5136" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 87.086 -310.523 L 86.869 -310.613"
+         id="path5138" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 86.869 -310.613 L 86.668 -310.736"
+         id="path5140" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 86.668 -310.736 L 86.489 -310.889"
+         id="path5142" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 86.489 -310.889 L 86.336 -311.068"
+         id="path5144" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 86.336 -311.068 L 86.213 -311.269"
+         id="path5146" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 86.213 -311.269 L 86.123 -311.486"
+         id="path5148" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 86.123 -311.486 L 86.068 -311.715"
+         id="path5150" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 86.068 -311.715 L 86.05 -311.95"
+         id="path5152" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 86.05 -311.95 L 86.068 -312.185"
+         id="path5154" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 86.068 -312.185 L 86.123 -312.413"
+         id="path5156" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 86.123 -312.413 L 86.213 -312.631"
+         id="path5158" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 86.213 -312.631 L 86.336 -312.832"
+         id="path5160" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 86.336 -312.832 L 86.489 -313.011"
+         id="path5162" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 86.489 -313.011 L 86.668 -313.163"
+         id="path5164" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 86.668 -313.163 L 86.869 -313.286"
+         id="path5166" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 86.869 -313.286 L 87.086 -313.376"
+         id="path5168" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 87.086 -313.376 L 87.315 -313.432"
+         id="path5170" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 87.315 -313.432 L 87.55 -313.45"
+         id="path5172" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 87.55 -313.45 L 89.55 -313.45"
+         id="path5174" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 89.55 -313.45 L 89.785 -313.432"
+         id="path5176" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 89.785 -313.432 L 90.013 -313.376"
+         id="path5178" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 90.013 -313.376 L 90.231 -313.286"
+         id="path5180" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 90.231 -313.286 L 90.432 -313.163"
+         id="path5182" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 90.432 -313.163 L 90.611 -313.011"
+         id="path5184" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 90.611 -313.011 L 90.763 -312.832"
+         id="path5186" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 90.763 -312.832 L 90.886 -312.631"
+         id="path5188" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 90.886 -312.631 L 90.977 -312.413"
+         id="path5190" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 90.977 -312.413 L 91.031 -312.185"
+         id="path5192" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 91.031 -312.185 L 91.05 -311.95"
+         id="path5194" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 91.05 -311.95 L 91.031 -311.715"
+         id="path5196" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 91.031 -311.715 L 90.977 -311.486"
+         id="path5198" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 90.977 -311.486 L 90.886 -311.269"
+         id="path5200" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 90.886 -311.269 L 90.763 -311.068"
+         id="path5202" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 90.763 -311.068 L 90.611 -310.889"
+         id="path5204" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 90.611 -310.889 L 90.432 -310.736"
+         id="path5206" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 90.432 -310.736 L 90.231 -310.613"
+         id="path5208" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 90.231 -310.613 L 90.013 -310.523"
+         id="path5210" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 90.013 -310.523 L 89.785 -310.468"
+         id="path5212" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 89.785 -310.468 L 89.55 -310.45"
+         id="path5214" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 89.55 -310.45 L 87.55 -310.45"
+         id="path5216" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 62.55 -310.45 L 62.315 -310.468"
+         id="path5218" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 62.315 -310.468 L 62.086 -310.523"
+         id="path5220" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 62.086 -310.523 L 61.869 -310.613"
+         id="path5222" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 61.869 -310.613 L 61.668 -310.736"
+         id="path5224" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 61.668 -310.736 L 61.489 -310.889"
+         id="path5226" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 61.489 -310.889 L 61.336 -311.068"
+         id="path5228" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 61.336 -311.068 L 61.213 -311.269"
+         id="path5230" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 61.213 -311.269 L 61.123 -311.486"
+         id="path5232" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 61.123 -311.486 L 61.068 -311.715"
+         id="path5234" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 61.068 -311.715 L 61.05 -311.95"
+         id="path5236" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 61.05 -311.95 L 61.068 -312.185"
+         id="path5238" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 61.068 -312.185 L 61.123 -312.413"
+         id="path5240" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 61.123 -312.413 L 61.213 -312.631"
+         id="path5242" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 61.213 -312.631 L 61.336 -312.832"
+         id="path5244" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 61.336 -312.832 L 61.489 -313.011"
+         id="path5246" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 61.489 -313.011 L 61.668 -313.163"
+         id="path5248" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 61.668 -313.163 L 61.869 -313.286"
+         id="path5250" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 61.869 -313.286 L 62.086 -313.376"
+         id="path5252" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 62.086 -313.376 L 62.315 -313.432"
+         id="path5254" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 62.315 -313.432 L 62.55 -313.45"
+         id="path5256" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 62.55 -313.45 L 64.55 -313.45"
+         id="path5258" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 64.55 -313.45 L 64.785 -313.432"
+         id="path5260" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 64.785 -313.432 L 65.013 -313.376"
+         id="path5262" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 65.013 -313.376 L 65.231 -313.286"
+         id="path5264" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 65.231 -313.286 L 65.432 -313.163"
+         id="path5266" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 65.432 -313.163 L 65.611 -313.011"
+         id="path5268" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 65.611 -313.011 L 65.763 -312.832"
+         id="path5270" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 65.763 -312.832 L 65.886 -312.631"
+         id="path5272" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 65.886 -312.631 L 65.977 -312.413"
+         id="path5274" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 65.977 -312.413 L 66.031 -312.185"
+         id="path5276" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 66.031 -312.185 L 66.05 -311.95"
+         id="path5278" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 66.05 -311.95 L 66.031 -311.715"
+         id="path5280" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 66.031 -311.715 L 65.977 -311.486"
+         id="path5282" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 65.977 -311.486 L 65.886 -311.269"
+         id="path5284" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 65.886 -311.269 L 65.763 -311.068"
+         id="path5286" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 65.763 -311.068 L 65.611 -310.889"
+         id="path5288" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 65.611 -310.889 L 65.432 -310.736"
+         id="path5290" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 65.432 -310.736 L 65.231 -310.613"
+         id="path5292" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 65.231 -310.613 L 65.013 -310.523"
+         id="path5294" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 65.013 -310.523 L 64.785 -310.468"
+         id="path5296" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 64.785 -310.468 L 64.55 -310.45"
+         id="path5298" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 64.55 -310.45 L 62.55 -310.45"
+         id="path5300" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 45.05 -302.95 L 45.05 -305.95"
+         id="path5302" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 45.05 -305.95 L 55.05 -305.95"
+         id="path5304" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 55.05 -305.95 L 55.05 -302.95"
+         id="path5306" />
+      <path
+         gcodetools="Preview"
+         style="stroke:#f88;fill:none;stroke-width:1;marker-end:url(#DrawCurveMarker)"
+         d="M 55.05 -302.95 L 45.05 -302.95"
+         id="path5308" />
+    </g>
+    <g
+       gcodetools="Preview group"
+       id="g5312" />
+    <g
+       gcodetools="Preview group"
+       id="g5314" />
+    <g
+       gcodetools="Preview group"
+       id="g5316" />
+    <g
+       gcodetools="Preview group"
+       id="g5318" />
+    <g
+       gcodetools="Preview group"
+       id="g5320" />
+    <g
+       gcodetools="Preview group"
+       id="g5322" />
+    <g
+       gcodetools="Preview group"
+       id="g5324" />
+    <g
+       gcodetools="Preview group"
+       id="g5326" />
+    <g
+       gcodetools="Preview group"
+       id="g5328" />
+    <g
+       gcodetools="Preview group"
+       id="g5330" />
+    <g
+       gcodetools="Preview group"
+       id="g5332" />
+    <g
+       gcodetools="Preview group"
+       id="g5334" />
+    <g
+       gcodetools="Preview group"
+       id="g5336" />
+    <g
+       gcodetools="Preview group"
+       id="g5338" />
+    <g
+       gcodetools="Preview group"
+       id="g5340" />
+    <g
+       gcodetools="Preview group"
+       id="g5342" />
+    <g
+       gcodetools="Preview group"
+       id="g5344" />
+    <g
+       gcodetools="Preview group"
+       id="g5346" />
+    <g
+       gcodetools="Preview group"
+       id="g5348" />
+    <g
+       gcodetools="Preview group"
+       id="g5350" />
+  </g>
+  <g
+     id="g5353" />
+</svg>
